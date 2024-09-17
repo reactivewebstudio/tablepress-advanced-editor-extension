@@ -61,11 +61,11 @@ A: As with all TablePress custom styling, you will need to use the Custom CSS ar
 
 ## Changelog
 
-### 1.0
+### 1.0.0
 - Initial release
 - Added "Bullet List" and "Numbered List" buttons to the TablePress Advanced Editor.
 
 ## Support
 
-If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/reactivewebstudio/tablepress-advanced-editor-extension) or visit the plugin's support page.
+If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/reactivewebstudio/tablepress-advanced-editor-extension/issues).
 
