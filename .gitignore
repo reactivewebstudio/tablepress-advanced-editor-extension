@@ -1,4 +1,4 @@
-# Ignore the dist directory
+# Ignore directories
 /dist
 
 # Ignore log files

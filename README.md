@@ -2,6 +2,8 @@
 
 TablePress Advanced Editor Extension is a WordPress plugin that extends the TablePress plugin by adding additional functionality to the Advanced Editor modal. This extension provides quick buttons for inserting bullet lists and numbered lists directly into the Advanced Editor.
 
+[TablePress]https://tablepress.org/ is the most popular and highest-rated table plugin for WordPress. TablePress is developed and maintained by "Tobias Bäthge". Please visit [TablePress]https://tablepress.org/ to find out more about this amazing plugin. 
+
 ## Features
 
 - Adds "Bullet List" and "Numbered List" buttons to the Advanced Editor in TablePress.
@@ -11,7 +13,7 @@ TablePress Advanced Editor Extension is a WordPress plugin that extends the Tabl
 ## Requirements
 
 - WordPress 6.0 or higher
-- TablePress plugin 2.4 or higher
+- TablePress 2.4 or higher (Tested with v2.4.2)
 
 ## Installation
 
@@ -48,22 +50,20 @@ TablePress Advanced Editor Extension is a WordPress plugin that extends the Tabl
 ### Q: Does this plugin work without TablePress?
 A: No, this plugin is an extension for the TablePress plugin and requires it to be installed and activated.
 
+### Q: Does this plugin require TablePress Premium lisence?
+A: No, this plugin will work with the free version of TablePress and with TablePress paid versions.
+
 ### Q: Can I customize the inserted list HTML?
 A: Currently, the plugin inserts basic `<ol>` and `<li>` tags. You can modify the JavaScript file (`custom-quicktags.js`) if you need customized output.
+
+### Q: How do I style the list tags?
+A: As with all TablePress custom styling, you will need to use the Custom CSS area found in the TablePress Plugin Option section to customize the style of the lists.
 
 ## Changelog
 
 ### 1.0
 - Initial release
 - Added "Bullet List" and "Numbered List" buttons to the TablePress Advanced Editor.
-
-## License
-
-This plugin is licensed under the GPL v2 or later. See the [LICENSE](LICENSE) file for more information.
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request on [GitHub](https://github.com/reactivewebstudio/tablepress-advanced-editor-extension).
 
 ## Support
 
