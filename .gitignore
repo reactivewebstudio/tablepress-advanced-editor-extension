@@ -1,0 +1,16 @@
+# Ignore the dist directory
+/dist
+
+# Ignore log files
+*.log
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+/build
+/.cache
+
+# Ignore environment files
+.env
