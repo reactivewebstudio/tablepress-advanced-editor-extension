@@ -2,7 +2,7 @@
 
 TablePress Advanced Editor Extension is a WordPress plugin that extends the TablePress plugin by adding additional functionality to the Advanced Editor modal. This extension provides quick buttons for inserting bullet lists and numbered lists directly into the Advanced Editor.
 
-[TablePress]https://tablepress.org/ is the most popular and highest-rated table plugin for WordPress. TablePress is developed and maintained by "Tobias Bäthge". Please visit [TablePress]https://tablepress.org/ to find out more about this amazing plugin. 
+[TablePress](https://tablepress.org/) is the most popular and highest-rated table plugin for [WordPress](https://wordpress.org). TablePress is developed and maintained by "Tobias Bäthge". Please visit [TablePress](https://tablepress.org/) to find out more about this amazing plugin. 
 
 ## Features
 
