@@ -3,7 +3,7 @@
  * Plugin Name: TablePress Advanced Editor Extension
  * Plugin URI: https://tablepress.org/
  * Description: Extends the TablePress Advanced Editor modal by adding list formatting options (ordered and unordered lists).
- * Version: 1.0
+ * Version: 1.1.0
  * Requires at least: 6.0
  * Requires PHP: 7.2
  * Author: James Hawkins

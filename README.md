@@ -8,6 +8,7 @@ TablePress Advanced Editor Extension is a WordPress plugin that extends the Tabl
 
 - Adds "Bullet List" and "Numbered List" buttons to the Advanced Editor in TablePress.
 - Directly inserts HTML list tags (`<ol>`, `<li>`) into the table cell content.
+- Automatically wraps list tags with `<ul>` tags if they don't already exist.
 - Works seamlessly with both the Quicktags and TinyMCE editors within the TablePress Advanced Editor modal.
 
 ## Requirements
@@ -60,6 +61,10 @@ A: Currently, the plugin inserts basic `<ol>` and `<li>` tags. You can modify th
 A: As with all TablePress custom styling, you will need to use the Custom CSS area found in the TablePress Plugin Option section to customize the style of the lists.
 
 ## Changelog
+
+### 1.1.0
+- Feature update release
+- Now automatially wraps `<li>` `</li>` 'and `<ol>` `</ol>` tags with `<ul>` `</ul>` tags. If list tags already exist, it will only add the desired `<li>` and `<ol>` tags.
 
 ### 1.0.0
 - Initial release
