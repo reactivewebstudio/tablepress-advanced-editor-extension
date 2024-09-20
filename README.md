@@ -2,7 +2,7 @@
 
 TablePress Advanced Editor Extension is a WordPress plugin that extends the TablePress plugin by adding additional functionality to the Advanced Editor modal. This extension provides quick buttons for inserting bullet lists and numbered lists directly into the Advanced Editor.
 
-[TablePress](https://tablepress.org/) is the most popular and highest-rated table plugin for [WordPress](https://wordpress.org). TablePress is developed and maintained by "Tobias Bäthge". Please visit [TablePress](https://tablepress.org/) to find out more about this amazing plugin. 
+[TablePress](https://tablepress.org/) is the most popular and highest-rated table plugin for [WordPress](https://wordpress.org). TablePress is developed and maintained by "Tobias Bäthge". Please visit [TablePress](https://tablepress.org/) to find out more about this amazing plugin.
 
 ## Features
 
@@ -49,28 +49,34 @@ TablePress Advanced Editor Extension is a WordPress plugin that extends the Tabl
 ## Frequently Asked Questions
 
 ### Q: Does this plugin work without TablePress?
+
 A: No, this plugin is an extension for the TablePress plugin and requires it to be installed and activated.
 
 ### Q: Does this plugin require TablePress Premium lisence?
+
 A: No, this plugin will work with the free version of TablePress and with TablePress paid versions.
 
 ### Q: Can I customize the inserted list HTML?
+
 A: Currently, the plugin inserts basic `<ol>` and `<li>` tags. You can modify the JavaScript file (`custom-quicktags.js`) if you need customized output.
 
 ### Q: How do I style the list tags?
+
 A: As with all TablePress custom styling, you will need to use the Custom CSS area found in the TablePress Plugin Option section to customize the style of the lists.
 
 ## Changelog
 
 ### 1.1.0
+
 - Feature update release
-- Now automatially wraps `<li>` `</li>` 'and `<ol>` `</ol>` tags with `<ul>` `</ul>` tags. If list tags already exist, it will only add the desired `<li>` and `<ol>` tags.
+- Now automatically wraps list tags with unordered list tags,  `<ul> </ul>`. If the unordered list tags already exist, it will only add the desired `<li>` and `<ol>` tags.
+- TablePress Advanced Editor Extension 1.1.0 is a feature release of this plugin and adds smart formatting lists to the TablePress Advanced Editor toolbar.
 
 ### 1.0.0
+
 - Initial release
 - Added "Bullet List" and "Numbered List" buttons to the TablePress Advanced Editor.
 
 ## Support
 
 If you have any questions or need support, please open an issue on the [GitHub repository](https://github.com/reactivewebstudio/tablepress-advanced-editor-extension/issues).
-

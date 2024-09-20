@@ -1,5 +1,9 @@
 # Ignore directories
 /dist
+/reference
+
+#Ignore zip files
+*.zip
 
 # Ignore log files
 *.log
